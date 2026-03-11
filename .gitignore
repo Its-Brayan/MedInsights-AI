@@ -209,3 +209,6 @@ __marimo__/
 #Ignore all YAML and YML files
 *.yaml
 *.yml
+
+# Vector database
+src/chroma_db/
