@@ -20,7 +20,9 @@ def load_documents() -> List[str]:
    try:
       documents = []
       loader = DirectoryLoader(
+
          "/home/brayan/Aiprojects/MedInsights-AI/data",
+
          loader_cls=PyMuPDFLoader
       )
       loaded_docs = loader.load()
